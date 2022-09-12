@@ -1,0 +1,376 @@
+/* :root{  --pri-text-color: #212121 } 
+.main{ background-color: var(--pri-text-color)} */
+
+:root {
+    --primary-text-color: #212121;
+    --focus-text-color: #2196F3;
+    --other-text-color: #FFFFFF;
+    --logo-text-color: #000000;
+    --advantage-text-color: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: #ffffff;
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+address {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.conteiner {
+    margin-left: 215px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* header */
+
+.Logo {
+    margin-right: 95px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--logo-text-color)
+}
+
+
+.conteiner-header {
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list>.link:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+
+.logospan {
+    color: var(--focus-text-color);
+}
+
+
+.activ.corrent {
+    color: var(--focus-text-color);
+}
+
+.nav-knopky {
+    padding: 4px 4px;
+    color: var(--logo-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.kontakt-list {
+    margin-left: auto;
+}
+
+.communication {
+    display: flex;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.communication-tel {
+    margin-left: 50px;
+}
+
+.communication-mail,
+.communication-tel {
+    padding: 4px 4px;
+    color: var(--advantage-text-color)
+}
+
+
+
+.link :hover,
+.link :focus {
+    color: var(--focus-text-color);
+}
+
+/* main */
+
+
+
+/* <!-- hero --> */
+.hero-wraper {
+    background-color: #2F303A;
+
+}
+
+.hero {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 700px;
+    margin: 0;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--other-text-color)
+}
+
+.btn-order {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--focus-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--other-text-color);
+}
+
+/* advantage firm */
+
+
+
+.advantage-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.advantage-list-item:not(:last-child) {
+    margin-right: 30px;
+
+}
+
+.advantage-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.advantage-title-two {
+    margin-top: 95px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage-text {
+
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--advantage-text-color)
+}
+
+
+/* <!-- Whot working --> */
+
+.working-list {
+    display: flex;
+    padding: 0 0 94px 0;
+    margin: 0;
+}
+
+.working-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.title-section {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* <!-- Our team --> */
+
+.team-list {
+    display: flex;
+    margin: 0;
+    padding: 0 0 94px 0;
+}
+
+.team-list-icon:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team-title-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-post {
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--advantage-text-color);
+}
+
+/* footer */
+
+.footer {
+    height: 252px;
+    background: #2F303A
+}
+
+.logo-wraper {
+    padding: 60px 0 20px 0;
+}
+
+.logospan-footer {
+    color: var(--other-text-color);
+}
+
+.address-list {
+    padding: 0;
+}
+
+.Address-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--other-text-color);
+}
+
+.communication-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 96px 0 34px 0;
+}
+
+.bnt-link:not(:last-child) {
+    margin-right: 8px;
+}
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 0;
+    padding: 0;
+}
+
+.list-portfolio-icon {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.list-portfolio-icon:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+
+
+
+
+.title-galety {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.bnt-portfolio {
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-text-color)
+}
+
+.bnt-link :hover,
+.bnt-link :focus,
+.bnt-link :active {
+    background-color: var(--focus-text-color);
+    color: var(--other-text-color);
+}
+
+.title-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.text-portfolio {
+
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--advantage-text-color);
+}
+
+.communication-footer:hover,
+.communication-footer:focus,
+.Address-link:hover,
+.Address-link:focus {
+    color: var(--focus-text-color);
+}
