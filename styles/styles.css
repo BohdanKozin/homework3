@@ -125,7 +125,7 @@ address {
 
 }
 
-.hero {background-color:#2F303A ;
+.hero { background-color:#2F303A ;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -145,7 +145,8 @@ address {
     color: var(--other-text-color)
 }
 
-.btn-order {
+.btn-order { border-width:0;
+    border-radius: 4px;
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     background-color: var(--focus-text-color);
@@ -265,7 +266,6 @@ address {
 .logo-wraper {
     padding: 60px 0 20px 0;
 }
-.conteiner-header{background-color:#2F303A ;}
 
 .logospan-footer {
     color: var(--other-text-color);
