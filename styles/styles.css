@@ -263,7 +263,7 @@ address {
     background-color: #2F303A;
 }
 
-.conteiner-footer{background-color: #2F303A;}
+.conteiner.conteiner-footer{background-color: #2F303A;}
 .logo-wraper {
     padding: 60px 0 20px 0;
 }
