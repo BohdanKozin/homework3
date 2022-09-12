@@ -15,7 +15,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: #ffffff;
-
+   
 
 }
 
@@ -125,7 +125,7 @@ address {
 
 }
 
-.hero {
+.hero {background-color:#2F303A ;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -265,6 +265,7 @@ address {
 .logo-wraper {
     padding: 60px 0 20px 0;
 }
+.conteiner-header{background-color:#2F303A ;}
 
 .logospan-footer {
     color: var(--other-text-color);
