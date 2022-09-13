@@ -9,17 +9,17 @@
     --advantage-text-color: #757575;
 }
 
+
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: #ffffff;
-   
-
 }
 
-
+* { outline: green solid 2px;}
 
 a {
     text-decoration: none;
@@ -45,13 +45,14 @@ address {
 /* header */
 
 .Logo {
-    margin-right: 95px;
+    
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--logo-text-color)
 }
+.logo-header{margin-right: 95px;}
 
 
 .conteiner-header {
@@ -60,7 +61,7 @@ address {
     display: flex;
 }
 
-.nav-list {
+.nav-list { padding-inline-start: 0px;
     display: flex;
 }
 
@@ -87,7 +88,7 @@ address {
     line-height: 1.14;
 }
 
-.kontakt-list {
+.kontakt-list {padding-inline-start: 0;
     margin-left: auto;
 }
 
@@ -127,11 +128,12 @@ address {
 }
 
 .hero { background-color:#2F303A ;
-    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px ;
 }
 
 .title {
@@ -146,7 +148,7 @@ address {
     color: var(--other-text-color)
 }
 
-.btn-order { border-width:0;
+.btn-order {
     border-radius: 4px;
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
@@ -160,7 +162,8 @@ address {
 
 /* advantage firm */
 
-
+.advantage-section{ padding-top: 94px;
+}
 
 .advantage-list {
     margin: 0;
@@ -187,7 +190,6 @@ address {
 }
 
 .advantage-title-two {
-    margin-top: 95px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -206,10 +208,14 @@ address {
 
 /* <!-- Whot working --> */
 
-.working-list {
-    display: flex;
-    padding: 0 0 94px 0;
-    margin: 0;
+.conteiner-working{ padding: 94px 0px 94px 0px;}
+
+.working-list { padding: 0px;
+   display: flex;
+    padding-inline-start: 0px;
+    flex-direction: center;
+    
+    
 }
 
 .working-list-item:not(:last-child) {
@@ -217,22 +223,32 @@ address {
 }
 
 
-.title-section {
-    padding-top: 94px;
-    padding-bottom: 50px;
-    margin: 0;
+
+.title-section { 
+    margin: 0 0 50px 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 }
 
+
 /* <!-- Our team --> */
 
-.team-list {
+.conteiner-team {background: #F5F4FA}
+
+.conteiner-team-list{ padding-top: 94px;
+padding-bottom: 94px;}
+
+.team-list {padding-inline-start: 0px;
     display: flex;
     margin: 0;
-    padding: 0 0 94px 0;
+}
+
+.team-list-icon { background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-list-icon:not(:last-child) {
@@ -248,9 +264,7 @@ address {
     text-align: center;
 }
 
-.team-post {
-    margin: 0;
-
+.team-post { margin: 0;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -264,15 +278,16 @@ address {
     background-color: #2F303A;
 }
 
-.conteiner.conteiner-footer{background-color: #2F303A;}
-.logo-wraper {
-    padding: 60px 0 20px 0;
+.conteiner-footer{background-color: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
 }
+
 
 .logospan-footer {
     color: var(--other-text-color);
 }
-
+.logo-wraper{margin-bottom: 20px;}
 .address-list {
     padding: 0;
 }
@@ -293,11 +308,14 @@ address {
 
 /* Portfolio */
 
-.btn-list {
+.galeria{ padding: 96px 0px 92px 0px;}
+
+
+.btn-list {    padding-inline-start: 0px;
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 96px 0 34px 0;
+    margin: 0px;
+    
 }
 
 .bnt-link:not(:last-child) {
@@ -315,14 +333,16 @@ address {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+    
 }
 
 .list-portfolio-icon:nth-child(3n) {
     margin-right: 0;
 }
 
-
-
+.portfolio-icon-text{ padding: 20px 24px 20px 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;}
 
 
 
@@ -339,8 +359,13 @@ address {
     margin: -1px;
 }
 
-.bnt-portfolio {
+.bnt-portfolio:not(:last-child){margin-right: 8px;}
+
+.bnt-portfolio {  margin-bottom: 50px;
+    padding: 6px 22px 6px 22px;
+    background: #F5F4FA;
     border-radius: 4px;
+    border: 0px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -377,3 +402,4 @@ address {
 .Address-link:focus {
     color: var(--focus-text-color);
 }
+
