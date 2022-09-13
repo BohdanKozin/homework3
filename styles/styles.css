@@ -19,7 +19,9 @@ body {
     background-color: #ffffff;
 }
 
-* { outline: green solid 2px;}
+* {
+    outline: green solid 2px;
+}
 
 a {
     text-decoration: none;
@@ -45,14 +47,17 @@ address {
 /* header */
 
 .Logo {
-    
+
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--logo-text-color)
 }
-.logo-header{margin-right: 95px;}
+
+.logo-header {
+    margin-right: 95px;
+}
 
 
 .conteiner-header {
@@ -61,7 +66,8 @@ address {
     display: flex;
 }
 
-.nav-list { padding-inline-start: 0px;
+.nav-list {
+    padding-inline-start: 0px;
     display: flex;
 }
 
@@ -88,7 +94,8 @@ address {
     line-height: 1.14;
 }
 
-.kontakt-list {padding-inline-start: 0;
+.kontakt-list {
+    padding-inline-start: 0;
     margin-left: auto;
 }
 
@@ -127,13 +134,14 @@ address {
 
 }
 
-.hero { background-color:#2F303A ;
+.hero {
+    background-color: #2F303A;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 200px;
-    padding-bottom: 200px ;
+    padding-bottom: 200px;
 }
 
 .title {
@@ -162,7 +170,8 @@ address {
 
 /* advantage firm */
 
-.advantage-section{ padding-top: 94px;
+.advantage-section {
+    padding-top: 94px;
 }
 
 .advantage-list {
@@ -208,14 +217,17 @@ address {
 
 /* <!-- Whot working --> */
 
-.conteiner-working{ padding: 94px 0px 94px 0px;}
+.conteiner-working {
+    padding: 94px 0px 94px 0px;
+}
 
-.working-list { padding: 0px;
-   display: flex;
+.working-list {
+    padding: 0px;
+    display: flex;
     padding-inline-start: 0px;
     flex-direction: center;
-    
-    
+
+
 }
 
 .working-list-item:not(:last-child) {
@@ -224,7 +236,7 @@ address {
 
 
 
-.title-section { 
+.title-section {
     margin: 0 0 50px 0;
     font-weight: 700;
     font-size: 36px;
@@ -235,17 +247,23 @@ address {
 
 /* <!-- Our team --> */
 
-.conteiner-team {background: #F5F4FA}
+.conteiner-team {
+    background: #F5F4FA
+}
 
-.conteiner-team-list{ padding-top: 94px;
-padding-bottom: 94px;}
+.conteiner-team-list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
-.team-list {padding-inline-start: 0px;
+.team-list {
+    padding-inline-start: 0px;
     display: flex;
     margin: 0;
 }
 
-.team-list-icon { background: #FFFFFF;
+.team-list-icon {
+    background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
@@ -264,7 +282,8 @@ padding-bottom: 94px;}
     text-align: center;
 }
 
-.team-post { margin: 0;
+.team-post {
+    margin: 0;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -278,16 +297,21 @@ padding-bottom: 94px;}
     background-color: #2F303A;
 }
 
-.conteiner-footer{background-color: #2F303A;
-padding-top: 60px;
-padding-bottom: 60px;
+.conteiner-footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 
 .logospan-footer {
     color: var(--other-text-color);
 }
-.logo-wraper{margin-bottom: 20px;}
+
+.logo-wraper {
+    margin-bottom: 20px;
+}
+
 .address-list {
     padding: 0;
 }
@@ -308,14 +332,17 @@ padding-bottom: 60px;
 
 /* Portfolio */
 
-.galeria{ padding: 96px 0px 92px 0px;}
+.galeria {
+    padding: 96px 0px 92px 0px;
+}
 
 
-.btn-list {    padding-inline-start: 0px;
+.btn-list {
+    padding-inline-start: 0px;
     display: flex;
     justify-content: center;
     margin: 0px;
-    
+
 }
 
 .bnt-link:not(:last-child) {
@@ -333,16 +360,18 @@ padding-bottom: 60px;
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    
+
 }
 
 .list-portfolio-icon:nth-child(3n) {
     margin-right: 0;
 }
 
-.portfolio-icon-text{ padding: 20px 24px 20px 24px;
+.portfolio-icon-text {
+    padding: 20px 24px 20px 24px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;}
+    border: 1px solid #EEEEEE;
+}
 
 
 
@@ -359,9 +388,12 @@ padding-bottom: 60px;
     margin: -1px;
 }
 
-.bnt-portfolio:not(:last-child){margin-right: 8px;}
+.bnt-portfolio:not(:last-child) {
+    margin-right: 8px;
+}
 
-.bnt-portfolio {  margin-bottom: 50px;
+.bnt-portfolio {
+    margin-bottom: 50px;
     padding: 6px 22px 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -402,4 +434,3 @@ padding-bottom: 60px;
 .Address-link:focus {
     color: var(--focus-text-color);
 }
-
