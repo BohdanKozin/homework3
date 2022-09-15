@@ -359,7 +359,7 @@ font-family: 'Roboto', sans-serif;
 
 .list-portfolio {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -380,7 +380,7 @@ font-family: 'Roboto', sans-serif;
     margin-right: 0;
 }
 
-.portfolio-icon-text {width: 370px;
+.portfolio-icon-text {
     padding: 20px 24px 20px 24px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
