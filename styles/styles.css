@@ -26,6 +26,9 @@ a { margin: 0;
     text-decoration: none;
 }
 
+a,p,ul,li,h1,h2,h3,button{padding: 0;
+margin: 0;}
+
 .img { display: block;
     max-width: 100%;
     height: auto}
@@ -269,6 +272,8 @@ font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
+.team-our-name{ padding-bottom: 30px}
+
 .team-list-icon {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -289,7 +294,7 @@ font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-.team-post {padding-bottom: 30px;
+.team-post {
     margin: 0;
     font-size: 16px;
     line-height: 1.2;
@@ -299,14 +304,13 @@ font-family: 'Roboto', sans-serif;
 
 /* footer */
 
-.footer {
-    height: 252px;
-    background-color: #2F303A;
+.footer { background-color: #2F303A;
 }
 
 .conteiner-footer {
     background-color: #2F303A;
     padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 
@@ -345,11 +349,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-.btn-list {
+.btn-list {  margin-bottom: 50px;
     padding-inline-start: 0px;
     display: flex;
     justify-content: center;
-    margin: 0px;
+   
 
 }
 
@@ -383,7 +387,9 @@ font-family: 'Roboto', sans-serif;
 .portfolio-icon-text {
     padding: 20px 24px 20px 24px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 
@@ -406,7 +412,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .bnt-portfolio {
-    margin-bottom: 50px;
+    
     padding: 6px 22px 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -426,7 +432,7 @@ font-family: 'Roboto', sans-serif;
     color: var(--other-text-color);
 }
 
-.title-portfolio {
+.title-portfolio {margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
