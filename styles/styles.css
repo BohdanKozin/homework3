@@ -19,8 +19,9 @@ body {
     background-color: #ffffff;
 }
 
+/* *{ outline: 1px solid red;} */
 
-
+.icon{ fill: #000000;}
 
 a { margin: 0;
     text-decoration: none;
@@ -133,14 +134,14 @@ address {
 
 
 /* <!-- hero --> */
-.hero-wraper {
-    background-color: #2F303A;
-
+.hero-wraper {background-image: url(../images/hero-fon.jpg);
+    background-color: rgba(47, 48, 58, 0.4);
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
-.hero {
-    background-color: #2F303A;
-    display: flex;
+.hero { display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -207,7 +208,7 @@ font-family: 'Roboto', sans-serif;
     margin: -1px;
 }
 
-.advantage-title-two {
+.advantage-title-two { 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -307,12 +308,13 @@ font-family: 'Roboto', sans-serif;
 .footer { background-color: #2F303A;
 }
 
-.conteiner-footer {
+.conteiner-footer {display: flex;
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
     
 }
+.polylannia-footer{display: flex;}
 
 
 .logospan-footer {
