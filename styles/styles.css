@@ -210,7 +210,7 @@ font-family: 'Roboto', sans-serif;
     margin: -1px;
 }
 
-.advantage-title-two { 
+.advantage-title-two { margin-bottom: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -275,7 +275,8 @@ font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-.team-our-name{ padding-bottom: 30px}
+.team-our-name{ padding-bottom: 30px; padding-top: 30px; padding-left: 10px; padding-right: 10px;
+}
 
 .team-list-icon {
     background: #FFFFFF;
@@ -289,7 +290,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .team-title-name {
-    margin-top: 30px;
+   
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -381,7 +382,7 @@ font-family: 'Roboto', sans-serif;
 /* Portfolio */
 
 .galeria {
-    padding: 96px 0px 92px 0px;
+    padding: 94px 0px 94px 0px;
 }
 
 
@@ -411,7 +412,7 @@ font-family: 'Roboto', sans-serif;
 .list-portfolio-icon { display: block;
     width: 370px;
     margin-right: 30px;
-    margin-bottom: 30px;
+    
 
 }
 .foto-portfilio{ display: block;}
