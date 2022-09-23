@@ -238,7 +238,7 @@ font-family: 'Roboto', sans-serif;
     padding: 0px;
     display: flex;
     padding-inline-start: 0px;
-    flex-direction: center;
+    justify-content: center;
 
 
 }
